@@ -1,8 +1,8 @@
 namespace Cantina_11._0
 {
-    public partial class Form1 : Form
+    public partial class Vendas : Form
     {
-        public Form1()
+        public Vendas()
         {
             InitializeComponent();
         }

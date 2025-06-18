@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\25165046\\source\\repos\\Cantina 11.0\\",
+  "WorkspaceRootPath": "C:\\Users\\25165046\\Desktop\\Cantina 11.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED5562DD-BF4C-45E8-BCAE-E2ADF94C7A5A}|Cantina 11.0\\Cantina 11.0.csproj|c:\\users\\25165046\\source\\repos\\cantina 11.0\\cantina 11.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ED5562DD-BF4C-45E8-BCAE-E2ADF94C7A5A}|Cantina 11.0\\Cantina 11.0.csproj|solutionrelative:cantina 11.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{ED5562DD-BF4C-45E8-BCAE-E2ADF94C7A5A}|Cantina 11.0\\Cantina 11.0.csproj|c:\\users\\25165046\\desktop\\cantina 11.0\\cantina 11.0\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED5562DD-BF4C-45E8-BCAE-E2ADF94C7A5A}|Cantina 11.0\\Cantina 11.0.csproj|solutionrelative:cantina 11.0\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED5562DD-BF4C-45E8-BCAE-E2ADF94C7A5A}|Cantina 11.0\\Cantina 11.0.csproj|C:\\Users\\25165046\\Desktop\\Cantina 11.0\\cantina 11.0\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED5562DD-BF4C-45E8-BCAE-E2ADF94C7A5A}|Cantina 11.0\\Cantina 11.0.csproj|solutionrelative:cantina 11.0\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED5562DD-BF4C-45E8-BCAE-E2ADF94C7A5A}|Cantina 11.0\\Cantina 11.0.csproj|C:\\Users\\25165046\\Desktop\\Cantina 11.0\\cantina 11.0\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED5562DD-BF4C-45E8-BCAE-E2ADF94C7A5A}|Cantina 11.0\\Cantina 11.0.csproj|solutionrelative:cantina 11.0\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED5562DD-BF4C-45E8-BCAE-E2ADF94C7A5A}|Cantina 11.0\\Cantina 11.0.csproj|C:\\Users\\25165046\\Desktop\\Cantina 11.0\\cantina 11.0\\cozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED5562DD-BF4C-45E8-BCAE-E2ADF94C7A5A}|Cantina 11.0\\Cantina 11.0.csproj|solutionrelative:cantina 11.0\\cozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED5562DD-BF4C-45E8-BCAE-E2ADF94C7A5A}|Cantina 11.0\\Cantina 11.0.csproj|C:\\Users\\25165046\\Desktop\\Cantina 11.0\\cantina 11.0\\balc\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED5562DD-BF4C-45E8-BCAE-E2ADF94C7A5A}|Cantina 11.0\\Cantina 11.0.csproj|solutionrelative:cantina 11.0\\balc\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,16 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cozinha.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\25165046\\Desktop\\Cantina 11.0\\Cantina 11.0\\Cozinha.cs",
+              "RelativeDocumentMoniker": "Cantina 11.0\\Cozinha.cs",
+              "ToolTip": "C:\\Users\\25165046\\Desktop\\Cantina 11.0\\Cantina 11.0\\Cozinha.cs [Projeto]",
+              "RelativeToolTip": "Cantina 11.0\\Cozinha.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:26:49.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Balc\u00E3o.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\25165046\\Desktop\\Cantina 11.0\\Cantina 11.0\\Balc\u00E3o.cs",
+              "RelativeDocumentMoniker": "Cantina 11.0\\Balc\u00E3o.cs",
+              "ToolTip": "C:\\Users\\25165046\\Desktop\\Cantina 11.0\\Cantina 11.0\\Balc\u00E3o.cs [Projeto]",
+              "RelativeToolTip": "Cantina 11.0\\Balc\u00E3o.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:11:11.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\25165046\\Desktop\\Cantina 11.0\\Cantina 11.0\\Login.cs",
+              "RelativeDocumentMoniker": "Cantina 11.0\\Login.cs",
+              "ToolTip": "C:\\Users\\25165046\\Desktop\\Cantina 11.0\\Cantina 11.0\\Login.cs [Projeto]",
+              "RelativeToolTip": "Cantina 11.0\\Login.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:12:16.316Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\25165046\\source\\repos\\Cantina 11.0\\Cantina 11.0\\Form1.cs",
-              "RelativeDocumentMoniker": "Cantina 11.0\\Form1.cs",
-              "ToolTip": "C:\\Users\\25165046\\source\\repos\\Cantina 11.0\\Cantina 11.0\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Cantina 11.0\\Form1.cs [Projeto]",
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\25165046\\Desktop\\Cantina 11.0\\Cantina 11.0\\Login.cs",
+              "RelativeDocumentMoniker": "Cantina 11.0\\Login.cs",
+              "ToolTip": "C:\\Users\\25165046\\Desktop\\Cantina 11.0\\Cantina 11.0\\Login.cs",
+              "RelativeToolTip": "Cantina 11.0\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:13:52.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vendas.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\25165046\\Desktop\\Cantina 11.0\\Cantina 11.0\\Vendas.cs",
+              "RelativeDocumentMoniker": "Cantina 11.0\\Vendas.cs",
+              "ToolTip": "C:\\Users\\25165046\\Desktop\\Cantina 11.0\\Cantina 11.0\\Vendas.cs [Projeto]",
+              "RelativeToolTip": "Cantina 11.0\\Vendas.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T12:25:36.184Z",
               "EditorCaption": " [Projeto]"
