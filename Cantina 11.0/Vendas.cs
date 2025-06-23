@@ -46,16 +46,33 @@ namespace Cantina_11._0
 
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
-            if (listProdutos != null)
+            if (listProdutos.SelectedItem != null)
             {
                 listCarrinho.Items.Add(listProdutos.SelectedItem);
                 AtualizarTotal();
+            }
+            else
+            {
+                MessageBox.Show("Selecione um produto para adicionar no carrinho!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
         private void AtualizarTotal()
         {
             lblValor.Text = $"Total: R${carrinho.Total():F2}";
+        }
+
+        private void btnRemover_Click(object sender, EventArgs e)
+        {
+            if (listProdutos.SelectedItem != null)
+            {
+                listCarrinho.Items.Remove(listProdutos.SelectedItem);
+                AtualizarTotal();
+            }
+            else
+            {
+                MessageBox.Show("Selecione um produto para remover do carrinho!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

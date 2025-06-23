@@ -61,40 +61,40 @@
             // txtProdutos
             // 
             txtProdutos.AutoSize = true;
-            txtProdutos.Font = new Font("Inter SemiBold", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtProdutos.Font = new Font("Microsoft Sans Serif", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtProdutos.Location = new Point(107, 144);
             txtProdutos.Name = "txtProdutos";
-            txtProdutos.Size = new Size(75, 22);
+            txtProdutos.Size = new Size(77, 18);
             txtProdutos.TabIndex = 0;
             txtProdutos.Text = "Produtos";
             // 
             // txtCarrinho
             // 
             txtCarrinho.AutoSize = true;
-            txtCarrinho.Font = new Font("Inter SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtCarrinho.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtCarrinho.Location = new Point(613, 144);
             txtCarrinho.Name = "txtCarrinho";
-            txtCarrinho.Size = new Size(73, 22);
+            txtCarrinho.Size = new Size(73, 18);
             txtCarrinho.TabIndex = 1;
             txtCarrinho.Text = "Carrinho";
             // 
             // txtCliente
             // 
             txtCliente.AutoSize = true;
-            txtCliente.Font = new Font("Inter SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtCliente.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtCliente.Location = new Point(321, 171);
             txtCliente.Name = "txtCliente";
-            txtCliente.Size = new Size(61, 22);
+            txtCliente.Size = new Size(60, 18);
             txtCliente.TabIndex = 2;
             txtCliente.Text = "Cliente";
             // 
             // txtDinheiro
             // 
             txtDinheiro.AutoSize = true;
-            txtDinheiro.Font = new Font("Inter SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtDinheiro.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtDinheiro.Location = new Point(321, 310);
             txtDinheiro.Name = "txtDinheiro";
-            txtDinheiro.Size = new Size(71, 22);
+            txtDinheiro.Size = new Size(71, 18);
             txtDinheiro.TabIndex = 3;
             txtDinheiro.Text = "Dinheiro";
             txtDinheiro.Visible = false;
@@ -102,10 +102,10 @@
             // txtTroco
             // 
             txtTroco.AutoSize = true;
-            txtTroco.Font = new Font("Inter SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtTroco.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtTroco.Location = new Point(330, 352);
             txtTroco.Name = "txtTroco";
-            txtTroco.Size = new Size(52, 22);
+            txtTroco.Size = new Size(53, 18);
             txtTroco.TabIndex = 4;
             txtTroco.Text = "Troco";
             txtTroco.Visible = false;
@@ -113,26 +113,26 @@
             // txtQuantidade
             // 
             txtQuantidade.AutoSize = true;
-            txtQuantidade.Font = new Font("Inter SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtQuantidade.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtQuantidade.Location = new Point(26, 335);
             txtQuantidade.Name = "txtQuantidade";
-            txtQuantidade.Size = new Size(94, 22);
+            txtQuantidade.Size = new Size(93, 18);
             txtQuantidade.TabIndex = 5;
             txtQuantidade.Text = "Quantidade";
             // 
             // txtPagamento
             // 
             txtPagamento.AutoSize = true;
-            txtPagamento.Font = new Font("Inter SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtPagamento.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtPagamento.Location = new Point(26, 378);
             txtPagamento.Name = "txtPagamento";
-            txtPagamento.Size = new Size(93, 22);
+            txtPagamento.Size = new Size(93, 18);
             txtPagamento.TabIndex = 6;
             txtPagamento.Text = "Pagamento";
             // 
             // btnAdicionar
             // 
-            btnAdicionar.Font = new Font("Inter SemiBold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAdicionar.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdicionar.Location = new Point(368, 220);
             btnAdicionar.Name = "btnAdicionar";
             btnAdicionar.Size = new Size(75, 23);
@@ -143,27 +143,28 @@
             // 
             // btnRemover
             // 
-            btnRemover.Font = new Font("Inter SemiBold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRemover.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnRemover.Location = new Point(368, 258);
             btnRemover.Name = "btnRemover";
             btnRemover.Size = new Size(75, 23);
             btnRemover.TabIndex = 8;
             btnRemover.Text = "Remover";
             btnRemover.UseVisualStyleBackColor = true;
+            btnRemover.Click += btnRemover_Click;
             // 
             // btnEncerrar
             // 
-            btnEncerrar.Font = new Font("Inter SemiBold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEncerrar.Location = new Point(357, 398);
+            btnEncerrar.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnEncerrar.Location = new Point(347, 398);
             btnEncerrar.Name = "btnEncerrar";
-            btnEncerrar.Size = new Size(131, 23);
+            btnEncerrar.Size = new Size(141, 23);
             btnEncerrar.TabIndex = 9;
             btnEncerrar.Text = "Finalizar a compra";
             btnEncerrar.UseVisualStyleBackColor = true;
             // 
             // btnBalcao
             // 
-            btnBalcao.Font = new Font("Inter SemiBold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnBalcao.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnBalcao.Location = new Point(589, 33);
             btnBalcao.Name = "btnBalcao";
             btnBalcao.Size = new Size(75, 23);
@@ -174,7 +175,7 @@
             // 
             // btnCozinha
             // 
-            btnCozinha.Font = new Font("Inter SemiBold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCozinha.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCozinha.Location = new Point(685, 33);
             btnCozinha.Name = "btnCozinha";
             btnCozinha.Size = new Size(75, 23);
@@ -275,10 +276,10 @@
             // checkViagem
             // 
             checkViagem.AutoSize = true;
-            checkViagem.Font = new Font("Inter SemiBold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            checkViagem.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             checkViagem.Location = new Point(72, 409);
             checkViagem.Name = "checkViagem";
-            checkViagem.Size = new Size(145, 31);
+            checkViagem.Size = new Size(144, 28);
             checkViagem.TabIndex = 22;
             checkViagem.Text = "Para viagem";
             checkViagem.UseVisualStyleBackColor = true;
@@ -286,10 +287,10 @@
             // lblValor
             // 
             lblValor.AutoSize = true;
-            lblValor.Font = new Font("Inter SemiBold", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblValor.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblValor.Location = new Point(592, 338);
             lblValor.Name = "lblValor";
-            lblValor.Size = new Size(95, 28);
+            lblValor.Size = new Size(100, 25);
             lblValor.TabIndex = 23;
             lblValor.Text = "Total: R$";
             // 

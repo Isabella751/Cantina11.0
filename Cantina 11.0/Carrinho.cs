@@ -10,5 +10,6 @@ namespace Cantina_11._0
     {
         private List<Produto> itens = new List<Produto>();
         public double Total() => itens.Sum(p => p.Preco);
+        public List<Produto> Listar() => new List<Produto>(itens);
     }
 }
