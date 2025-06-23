@@ -51,6 +51,7 @@
             listCarrinho = new ListBox();
             comboPagamento = new ComboBox();
             checkViagem = new CheckBox();
+            lblValor = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -132,12 +133,13 @@
             // btnAdicionar
             // 
             btnAdicionar.Font = new Font("Inter SemiBold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnAdicionar.Location = new Point(368, 215);
+            btnAdicionar.Location = new Point(368, 220);
             btnAdicionar.Name = "btnAdicionar";
             btnAdicionar.Size = new Size(75, 23);
             btnAdicionar.TabIndex = 7;
             btnAdicionar.Text = "Adicionar";
             btnAdicionar.UseVisualStyleBackColor = true;
+            btnAdicionar.Click += btnAdicionar_Click;
             // 
             // btnRemover
             // 
@@ -184,9 +186,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.raio;
-            pictureBox1.Location = new Point(559, 335);
+            pictureBox1.Location = new Point(589, 378);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(253, 130);
+            pictureBox1.Size = new Size(223, 87);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 12;
             pictureBox1.TabStop = false;
@@ -204,9 +206,9 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.raio_2;
-            pictureBox3.Location = new Point(-14, -18);
+            pictureBox3.Location = new Point(-16, -9);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(253, 130);
+            pictureBox3.Size = new Size(233, 87);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 14;
             pictureBox3.TabStop = false;
@@ -248,7 +250,7 @@
             listProdutos.ItemHeight = 15;
             listProdutos.Location = new Point(31, 173);
             listProdutos.Name = "listProdutos";
-            listProdutos.Size = new Size(256, 139);
+            listProdutos.Size = new Size(256, 154);
             listProdutos.TabIndex = 19;
             // 
             // listCarrinho
@@ -258,12 +260,13 @@
             listCarrinho.ItemHeight = 15;
             listCarrinho.Location = new Point(519, 173);
             listCarrinho.Name = "listCarrinho";
-            listCarrinho.Size = new Size(256, 139);
+            listCarrinho.Size = new Size(256, 154);
             listCarrinho.TabIndex = 20;
             // 
             // comboPagamento
             // 
             comboPagamento.FormattingEnabled = true;
+            comboPagamento.Items.AddRange(new object[] { "Dinheiro", "Crédito", "Débito", "Pix", "VR", "VA" });
             comboPagamento.Location = new Point(126, 380);
             comboPagamento.Name = "comboPagamento";
             comboPagamento.Size = new Size(121, 23);
@@ -280,12 +283,23 @@
             checkViagem.Text = "Para viagem";
             checkViagem.UseVisualStyleBackColor = true;
             // 
+            // lblValor
+            // 
+            lblValor.AutoSize = true;
+            lblValor.Font = new Font("Inter SemiBold", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblValor.Location = new Point(592, 338);
+            lblValor.Name = "lblValor";
+            lblValor.Size = new Size(95, 28);
+            lblValor.TabIndex = 23;
+            lblValor.Text = "Total: R$";
+            // 
             // Vendas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(230, 255, 0);
             ClientSize = new Size(800, 450);
+            Controls.Add(lblValor);
             Controls.Add(checkViagem);
             Controls.Add(comboPagamento);
             Controls.Add(listCarrinho);
@@ -345,5 +359,6 @@
         private ListBox listCarrinho;
         private ComboBox comboPagamento;
         private CheckBox checkViagem;
+        private Label lblValor;
     }
 }
