@@ -28,7 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
+            pictureBox1 = new PictureBox();
+            txtPedidos = new Label();
+            listPedidos = new ListBox();
+            txtEntregues = new Label();
+            listEntregues = new ListBox();
+            btnEntregar = new Button();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.bolt_logo;
+            pictureBox1.Location = new Point(303, -24);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(200, 139);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // txtPedidos
+            // 
+            txtPedidos.AutoSize = true;
+            txtPedidos.Location = new Point(390, 132);
+            txtPedidos.Name = "txtPedidos";
+            txtPedidos.Size = new Size(49, 15);
+            txtPedidos.TabIndex = 1;
+            txtPedidos.Text = "Pedidos";
+            // 
+            // listPedidos
+            // 
+            listPedidos.FormattingEnabled = true;
+            listPedidos.ItemHeight = 15;
+            listPedidos.Location = new Point(42, 150);
+            listPedidos.Name = "listPedidos";
+            listPedidos.Size = new Size(714, 94);
+            listPedidos.TabIndex = 2;
+            // 
+            // txtEntregues
+            // 
+            txtEntregues.AutoSize = true;
+            txtEntregues.Location = new Point(390, 306);
+            txtEntregues.Name = "txtEntregues";
+            txtEntregues.Size = new Size(59, 15);
+            txtEntregues.TabIndex = 3;
+            txtEntregues.Text = "Entregues";
+            // 
+            // listEntregues
+            // 
+            listEntregues.FormattingEnabled = true;
+            listEntregues.ItemHeight = 15;
+            listEntregues.Location = new Point(42, 335);
+            listEntregues.Name = "listEntregues";
+            listEntregues.Size = new Size(714, 94);
+            listEntregues.TabIndex = 4;
+            // 
+            // btnEntregar
+            // 
+            btnEntregar.Location = new Point(374, 260);
+            btnEntregar.Name = "btnEntregar";
+            btnEntregar.Size = new Size(75, 23);
+            btnEntregar.TabIndex = 5;
+            btnEntregar.Text = "Entregar";
+            btnEntregar.UseVisualStyleBackColor = true;
             // 
             // Balcão
             // 
@@ -36,12 +98,27 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(230, 255, 0);
             ClientSize = new Size(800, 450);
+            Controls.Add(btnEntregar);
+            Controls.Add(listEntregues);
+            Controls.Add(txtEntregues);
+            Controls.Add(listPedidos);
+            Controls.Add(txtPedidos);
+            Controls.Add(pictureBox1);
             Name = "Balcão";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Balcão";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private PictureBox pictureBox1;
+        private Label txtPedidos;
+        private ListBox listPedidos;
+        private Label txtEntregues;
+        private ListBox listEntregues;
+        private Button btnEntregar;
     }
 }
