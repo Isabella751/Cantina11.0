@@ -40,3 +40,24 @@ C:\Users\isabe\OneDrive\Área de Trabalho\Git projeto cantina 10.0\Cantina11.0\C
 C:\Users\isabe\OneDrive\Área de Trabalho\Git projeto cantina 10.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina 11.0.pdb
 C:\Users\isabe\OneDrive\Área de Trabalho\Git projeto cantina 10.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina 11.0.genruntimeconfig.cache
 C:\Users\isabe\OneDrive\Área de Trabalho\Git projeto cantina 10.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\ref\Cantina 11.0.dll
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\bin\Debug\net8.0-windows\Cantina 11.0.exe
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\bin\Debug\net8.0-windows\Cantina 11.0.deps.json
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\bin\Debug\net8.0-windows\Cantina 11.0.runtimeconfig.json
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\bin\Debug\net8.0-windows\Cantina 11.0.dll
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\bin\Debug\net8.0-windows\Cantina 11.0.pdb
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina_11._0.Balcão.resources
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina_11._0.Cozinha.resources
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina_11._0.Login.resources
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina_11._0.Properties.Resources.resources
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina_11._0.Vendas.resources
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina 11.0.csproj.GenerateResource.cache
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina 11.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina 11.0.AssemblyInfoInputs.cache
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina 11.0.AssemblyInfo.cs
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina 11.0.csproj.CoreCompileInputs.cache
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina 11.0.sourcelink.json
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina 11.0.dll
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\refint\Cantina 11.0.dll
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina 11.0.pdb
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina 11.0.genruntimeconfig.cache
+C:\Users\25165046\Desktop\Git Cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\ref\Cantina 11.0.dll

@@ -50,9 +50,10 @@
             // txtPedidos
             // 
             txtPedidos.AutoSize = true;
-            txtPedidos.Location = new Point(390, 132);
+            txtPedidos.Font = new Font("Inter SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtPedidos.Location = new Point(369, 125);
             txtPedidos.Name = "txtPedidos";
-            txtPedidos.Size = new Size(49, 15);
+            txtPedidos.Size = new Size(68, 22);
             txtPedidos.TabIndex = 1;
             txtPedidos.Text = "Pedidos";
             // 
@@ -68,9 +69,10 @@
             // txtEntregues
             // 
             txtEntregues.AutoSize = true;
-            txtEntregues.Location = new Point(390, 306);
+            txtEntregues.Font = new Font("Inter SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtEntregues.Location = new Point(361, 310);
             txtEntregues.Name = "txtEntregues";
-            txtEntregues.Size = new Size(59, 15);
+            txtEntregues.Size = new Size(83, 22);
             txtEntregues.TabIndex = 3;
             txtEntregues.Text = "Entregues";
             // 
@@ -85,7 +87,7 @@
             // 
             // btnEntregar
             // 
-            btnEntregar.Location = new Point(374, 260);
+            btnEntregar.Location = new Point(369, 260);
             btnEntregar.Name = "btnEntregar";
             btnEntregar.Size = new Size(75, 23);
             btnEntregar.TabIndex = 5;

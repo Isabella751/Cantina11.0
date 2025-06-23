@@ -40,9 +40,10 @@
             // txtCozinha
             // 
             txtCozinha.AutoSize = true;
-            txtCozinha.Location = new Point(382, 120);
+            txtCozinha.Font = new Font("Inter SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtCozinha.Location = new Point(369, 113);
             txtCozinha.Name = "txtCozinha";
-            txtCozinha.Size = new Size(50, 15);
+            txtCozinha.Size = new Size(69, 22);
             txtCozinha.TabIndex = 0;
             txtCozinha.Text = "Cozinha";
             // 
@@ -58,9 +59,10 @@
             // txtEntreguesCozinha
             // 
             txtEntreguesCozinha.AutoSize = true;
-            txtEntreguesCozinha.Location = new Point(389, 326);
+            txtEntreguesCozinha.Font = new Font("Inter SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtEntreguesCozinha.Location = new Point(369, 319);
             txtEntreguesCozinha.Name = "txtEntreguesCozinha";
-            txtEntreguesCozinha.Size = new Size(59, 15);
+            txtEntreguesCozinha.Size = new Size(83, 22);
             txtEntreguesCozinha.TabIndex = 2;
             txtEntreguesCozinha.Text = "Entregues";
             // 
@@ -75,7 +77,7 @@
             // 
             // btnEntregar
             // 
-            btnEntregar.Location = new Point(373, 250);
+            btnEntregar.Location = new Point(369, 247);
             btnEntregar.Name = "btnEntregar";
             btnEntregar.Size = new Size(75, 23);
             btnEntregar.TabIndex = 4;
