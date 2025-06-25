@@ -39,40 +39,6 @@ namespace Cantina_11._0
                 textUsuario.Clear();
                 textSenha.Clear();
             }
-            else if (usuario == "Balcão" && senha == "balcão123")
-            {
-                progressBar.Minimum = 0;
-                progressBar.Maximum = 20000;
-                progressBar.Visible = true;
-
-                for (int i = 0; i <= 20000; i++)
-                {
-                    progressBar.Value = i;
-                }
-
-                progressBar.Visible = false;
-                Balcão minhaNovaJanela = new Balcão();
-                minhaNovaJanela.Show();
-                textUsuario.Clear();
-                textSenha.Clear();
-            }
-            else if (usuario == "Cozinha" && senha == "cozinha123")
-            {
-                progressBar.Minimum = 0;
-                progressBar.Maximum = 20000;
-                progressBar.Visible = true;
-
-                for (int i = 0; i <= 20000; i++)
-                {
-                    progressBar.Value = i;
-                }
-
-                progressBar.Visible = false;
-                Cozinha minhaNovaJanela = new Cozinha();
-                minhaNovaJanela.Show();
-                textUsuario.Clear();
-                textSenha.Clear();
-            }
             else if (usuario == string.Empty && senha == string.Empty)
             {
                 MessageBox.Show("Insira o usuário e senha!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);

@@ -38,8 +38,6 @@
             btnAdicionar = new Button();
             btnRemover = new Button();
             btnEncerrar = new Button();
-            btnBalcao = new Button();
-            btnCozinha = new Button();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
@@ -155,34 +153,13 @@
             // btnEncerrar
             // 
             btnEncerrar.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEncerrar.Location = new Point(347, 398);
+            btnEncerrar.Location = new Point(330, 399);
             btnEncerrar.Name = "btnEncerrar";
             btnEncerrar.Size = new Size(141, 23);
             btnEncerrar.TabIndex = 9;
             btnEncerrar.Text = "Finalizar a compra";
             btnEncerrar.UseVisualStyleBackColor = true;
-            // 
-            // btnBalcao
-            // 
-            btnBalcao.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnBalcao.Location = new Point(589, 33);
-            btnBalcao.Name = "btnBalcao";
-            btnBalcao.Size = new Size(75, 23);
-            btnBalcao.TabIndex = 10;
-            btnBalcao.Text = "Balcão";
-            btnBalcao.UseVisualStyleBackColor = true;
-            btnBalcao.Click += btnBalcao_Click;
-            // 
-            // btnCozinha
-            // 
-            btnCozinha.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCozinha.Location = new Point(685, 33);
-            btnCozinha.Name = "btnCozinha";
-            btnCozinha.Size = new Size(75, 23);
-            btnCozinha.TabIndex = 11;
-            btnCozinha.Text = "Cozinha";
-            btnCozinha.UseVisualStyleBackColor = true;
-            btnCozinha.Click += btnCozinha_Click;
+            btnEncerrar.Click += btnEncerrar_Click;
             // 
             // pictureBox1
             // 
@@ -272,6 +249,7 @@
             comboPagamento.Name = "comboPagamento";
             comboPagamento.Size = new Size(121, 23);
             comboPagamento.TabIndex = 21;
+            comboPagamento.SelectedIndexChanged += comboPagamento_SelectedIndexChanged;
             // 
             // checkViagem
             // 
@@ -283,6 +261,7 @@
             checkViagem.TabIndex = 22;
             checkViagem.Text = "Para viagem";
             checkViagem.UseVisualStyleBackColor = true;
+            checkViagem.CheckedChanged += checkViagem_CheckedChanged;
             // 
             // lblValor
             // 
@@ -312,8 +291,6 @@
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
-            Controls.Add(btnCozinha);
-            Controls.Add(btnBalcao);
             Controls.Add(btnEncerrar);
             Controls.Add(btnRemover);
             Controls.Add(btnAdicionar);
@@ -347,8 +324,6 @@
         private Button btnAdicionar;
         private Button btnRemover;
         private Button btnEncerrar;
-        private Button btnBalcao;
-        private Button btnCozinha;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;

@@ -66,8 +66,6 @@ C:\Users\isabe\OneDrive\Área de Trabalho\Git projeto cantina 11.0\Cantina11.0\C
 C:\Users\isabe\OneDrive\Área de Trabalho\Git projeto cantina 11.0\Cantina11.0\Cantina 11.0\bin\Debug\net8.0-windows\Cantina 11.0.runtimeconfig.json
 C:\Users\isabe\OneDrive\Área de Trabalho\Git projeto cantina 11.0\Cantina11.0\Cantina 11.0\bin\Debug\net8.0-windows\Cantina 11.0.dll
 C:\Users\isabe\OneDrive\Área de Trabalho\Git projeto cantina 11.0\Cantina11.0\Cantina 11.0\bin\Debug\net8.0-windows\Cantina 11.0.pdb
-C:\Users\isabe\OneDrive\Área de Trabalho\Git projeto cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina_11._0.Balcão.resources
-C:\Users\isabe\OneDrive\Área de Trabalho\Git projeto cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina_11._0.Cozinha.resources
 C:\Users\isabe\OneDrive\Área de Trabalho\Git projeto cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina_11._0.Login.resources
 C:\Users\isabe\OneDrive\Área de Trabalho\Git projeto cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina_11._0.Properties.Resources.resources
 C:\Users\isabe\OneDrive\Área de Trabalho\Git projeto cantina 11.0\Cantina11.0\Cantina 11.0\obj\Debug\net8.0-windows\Cantina_11._0.Vendas.resources
